@@ -21,7 +21,7 @@ function setup() {
 
  left=createSprite(1000,460,20,200);
  left.shapeColor=("red");
- lef=Bodies.rectangle(1200,460,20,200,{isStatic:true});
+ lef=Bodies.rectangle(1000,460,20,200,{isStatic:true});
  World.add(world,lef);
 
   bottom=createSprite(1100,560,200,20);
